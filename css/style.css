@@ -1,0 +1,29 @@
+/* 
+font-family: 'Montserrat';
+font-family: 'Myriad Pro';
+font-family: 'Nunito Sans';
+font-family: 'Work Sans';
+*/
+
+/* base styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+/* base styles end */
