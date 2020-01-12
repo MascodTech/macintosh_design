@@ -123,3 +123,56 @@ header {
 }
 
 /* about end */
+
+/* skills */
+
+.skills {
+    padding: 165px 0;
+    background: #f8f9f9;
+    position: relative;
+    overflow: hidden;
+}
+
+.skills__title {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.skills__progress-title {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+
+.skills__progress-title span {
+    margin-left: 20px;
+}
+
+.skills__progress {
+    background: #d8d8d8;
+    height: 3px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.skills__progress-bar {
+    background: #007d2f;
+}
+
+.skills__image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* skills end */
