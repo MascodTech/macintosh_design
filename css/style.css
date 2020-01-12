@@ -210,3 +210,55 @@ header {
 }
 
 /* about-work end */
+
+/* works */
+
+.works__item {
+    width: 25%;
+    height: 300px;
+    position: relative;
+}
+
+.works__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.works__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 3600px 6235px 2px rgba(32, 22, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.works__item:hover .works__overlay {
+    opacity: 1;
+}
+
+.more-works {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 40px 0;
+    background: #007d2f;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.more-works:hover {
+    color: #fff;
+}
+
+/* works end */
