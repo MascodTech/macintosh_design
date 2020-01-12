@@ -27,3 +27,75 @@ body {
 }
 
 /* base styles end */
+
+/* header */
+
+header {
+    background: url('../img/header-bg.jpg') no-repeat center / cover;
+    min-height: 100vh;
+}
+
+.navbar__link {
+    color: #191919 !important;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: right;
+}
+
+.navbar__item:not(:last-child) .navbar__link {
+    padding-right: 35px;
+}
+
+.navbar__link:hover {
+    color: #007d2f !important;
+}
+
+.navbar__button i {
+    font-size: 40px;
+}
+
+.header__content {
+    padding: 50px 0;
+}
+
+.header__content-container {
+    margin-top: -150px;
+}
+
+.header__title {
+    color: #1d1d1d;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0.38px;
+    margin-bottom: 30px;
+}
+
+.header__text {
+    color: #787878;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.header__button {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background: #007d2f;
+    padding: 20px 50px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.header__button:hover {
+    color: #000;
+    background: #fff;
+    border: 2px solid #007d2f;
+}
+
+/* header end */
