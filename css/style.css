@@ -176,3 +176,37 @@ header {
 }
 
 /* skills end */
+
+/* about-work */
+
+.about-work {
+    padding: 75px 0 80px;
+    background: #007d2f;
+}
+
+.about-work__icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.about-work__number {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.about-work__title {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+/* about-work end */

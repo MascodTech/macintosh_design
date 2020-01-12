@@ -26,7 +26,7 @@
     .skills {
         padding: 50px 0;
     }
-    
+
     .skills__image {
         position: static;
         display: block;
@@ -36,10 +36,20 @@
     }
 }
 
-@media (max-width: 767.5px) {}
+@media (max-width: 767.5px) {
+
+    .about-work__item:nth-child(1),
+    .about-work__item:nth-child(2) {
+        margin-bottom: 30px;
+    }
+}
 
 @media (max-width: 575.5px) {
     .skills__progress {
         width: 100%;
+    }
+
+    .about-work__item:not(:last-child) {
+        margin-bottom: 30px;
     }
 }
