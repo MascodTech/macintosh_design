@@ -634,6 +634,108 @@ header {
     opacity: 1;
 }
 
+.navbar__link_active {
+    color: #007d2f !important;
+}
+
 /* ===================================================== */
 /* ====================== HOME END ===================== */
+/* ===================================================== */
+
+/* ===================================================== */
+/* ======================= ABOUT ======================= */
+/* ===================================================== */
+
+.about-about {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 110px 0;
+}
+
+.about-about__title {
+    color: #fff;
+    font-size: 62px;
+    font-weight: 500;
+}
+
+.about-about__subtitle {
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.me {
+    padding: 140px 0;
+    background: #f8f9f9;
+    position: relative;
+    overflow: hidden;
+}
+
+.me__image {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.me__title {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-bottom: 40px;
+}
+
+.me__text {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.need {
+    padding: 100px 0;
+}
+
+.need__title {
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.need__subtitle {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.need__button {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #007d2f;
+    padding: 20px 40px;
+    border: 2px solid #007d2f;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.need__button:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* ===================================================== */
+/* ===================== ABOUT END ===================== */
 /* ===================================================== */
