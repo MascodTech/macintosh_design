@@ -347,3 +347,58 @@ header {
 }
 
 /* service end */
+
+/* comments */
+
+.comments {
+    background: #007d2f;
+    padding: 195px 0 60px;
+}
+
+.comments__quote {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.comments__quote::before {
+    content: '“';
+    font-size: 25px;
+}
+
+.comments__quote::after {
+    content: '”';
+    font-size: 25px;
+}
+
+.comments__title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 100px;
+}
+
+.comments__carousel-indicators {
+    bottom: -30px;
+    align-items: center;
+}
+
+.comments__dots {
+    border: none !important;
+    width: 6px !important;
+    height: 6px !important;
+    background: #b0e8e6 !important;
+    border-radius: 50%;
+}
+
+.comments__dots.active {
+    width: 10px !important;
+    height: 10px !important;
+    background: #ffffff !important;
+}
+
+/* comments end */
