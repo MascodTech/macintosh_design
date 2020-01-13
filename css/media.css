@@ -40,6 +40,10 @@
     .process__video-image {
         height: 370px;
     }
+
+    .feedback__title_margin {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 767.5px) {

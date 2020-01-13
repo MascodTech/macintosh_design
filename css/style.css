@@ -414,3 +414,32 @@ header {
 }
 
 /* brands end */
+
+/* feedback */
+
+.feedback {
+    padding: 25px 0 100px;
+    background: #f5f5f5;
+}
+
+.feedback__title {
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.feedback__text {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.feedback__title_margin {
+    margin-left: 55px;
+}
+
+/* feedback end */
