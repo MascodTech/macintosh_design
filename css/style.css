@@ -313,3 +313,37 @@ header {
 }
 
 /* process end */
+
+/* service */
+
+.service {
+    background: #f5f5f5;
+    padding: 100px 0 45px;
+}
+
+.service__icon {
+    width: 40px;
+    height: 45px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+.service__title {
+    color: #191919;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+
+.service__subtitle {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 55px;
+}
+
+/* service end */
