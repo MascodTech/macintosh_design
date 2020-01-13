@@ -402,3 +402,15 @@ header {
 }
 
 /* comments end */
+
+/* brands */
+
+.brands {
+    padding: 70px 0 30px;
+}
+
+.brands__item {
+    margin-bottom: 40px;
+}
+
+/* brands end */
