@@ -199,11 +199,54 @@
     <a class="more-works" href="#!">load more work</a>
     <!-- /.works -->
 
+    <section class="process">
+        <div class="container text-center">
+            <h1 class="process__title">Our Work Process</h1>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-9 col-xl-7">
+                    <p class="process__text">
+                        Was years it seasons was there form he in in them together over that, third sixth gathered
+                        female creeping bearing behold years.
+                    </p>
+                </div>
+            </div>
+            <div class="process__video-image">
+                <button type="button" class="process__video-button btn" data-toggle="modal"
+                    data-target=".bd-example-modal-xl">
+                    <i class="fas fa-caret-right"></i>
+                </button>
+            </div>
+
+            <div class="modal fade bd-example-modal-xl" id="modal" tabindex="-1" role="dialog"
+                aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="process__modal-dialog modal-dialog modal-xl">
+                    <div class="process__modal-content modal-content">
+                        <video class="process__modal-video" controls src="video/envato-elements.mp4"></video>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- /.process -->
+
+
+
 
     <!-- JavaScripts -->
     <script src="libs/jquery-3.4.1.min.js"></script>
     <script src="libs/popper.min.js"></script>
     <script src="libs/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $('#modal').on('shown.bs.modal', () => {
+            $('#modal video')[0].play();
+        })
+        $('#modal').on('hidden.bs.modal', () => {
+            $('#modal video').attr("src", $("#modal video").attr("src"));
+        });
+    </script>
 </body>
 
 </html>

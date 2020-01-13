@@ -6,6 +6,10 @@
     .skills__progress {
         width: 400px;
     }
+
+    .process__video-image {
+        height: 500px;
+    }
 }
 
 @media (max-width: 991.5px) {
@@ -32,6 +36,10 @@
     .works__item {
         width: 50%;
     }
+
+    .process__video-image {
+        height: 370px;
+    }
 }
 
 @media (max-width: 767.5px) {
@@ -48,6 +56,10 @@
     .about-work__item:nth-child(2) {
         margin-bottom: 30px;
     }
+
+    .process__video-image {
+        height: 300px;
+    }
 }
 
 @media (max-width: 575.5px) {
@@ -61,5 +73,13 @@
 
     .works__item {
         width: 100%;
+    }
+
+    .process__title {
+        font-size: 30px;
+    }
+
+    .process__text {
+        font-size: 18px;
     }
 }
