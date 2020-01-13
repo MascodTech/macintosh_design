@@ -3,6 +3,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Myriad Pro', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 */
 
 /* base styles */
@@ -56,6 +57,10 @@ body {
 }
 
 /* base styles end */
+
+/* ===================================================== */
+/* ======================= INDEX ======================= */
+/* ===================================================== */
 
 /* header */
 
@@ -583,3 +588,52 @@ header {
 }
 
 /* footer end */
+
+
+/* ===================================================== */
+/* ===================== INDEX END ===================== */
+/* ===================================================== */
+
+/* ===================================================== */
+/* ======================= HOME ======================== */
+/* ===================================================== */
+
+.header_home {
+    background: none;
+    min-height: auto;
+}
+
+.navbar_home {
+    background: #fff;
+}
+
+.about-home {
+    background: #007d2f;
+    padding: 110px 0 100px;
+}
+
+.about-home__title {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.about-home__subtitle {
+    color: #fefefe;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+.works__overlay_home:hover {
+    box-shadow: none;
+    background: rgba(55, 137, 86, 0.85);
+    opacity: 1;
+}
+
+/* ===================================================== */
+/* ====================== HOME END ===================== */
+/* ===================================================== */
