@@ -812,3 +812,114 @@ header {
 /* ===================================================== */
 /* ==================== CONTACT END ==================== */
 /* ===================================================== */
+
+/* ===================================================== */
+/* ====================== PROJECT ====================== */
+/* ===================================================== */
+
+.project__item {
+    background: #f6f6f6;
+    padding: 100px 0;
+    position: relative;
+}
+
+.project__title {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.project__text {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.project__text:last-of-type {
+    margin-bottom: 60px;
+}
+
+.project__list-item {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project__list-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.project__list-item b {
+    color: #171717;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.project__image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project__indicators {
+    background: #007d2f;
+    padding: 40px 0;
+}
+
+.project__indicators-ol {
+    position: static;
+    margin: 0 auto;
+    width: 20px;
+}
+
+.project__indicators li {
+    border: none;
+    width: 6px;
+    height: 6px;
+    margin: 2px;
+}
+
+.project__prev-button,
+.project__next-button {
+    top: auto;
+    bottom: 0;
+    height: 100px;
+}
+
+.project__prev-button i,
+.project__next-button i {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.project__prev-button i {
+    margin-right: 14px;
+}
+
+.project__next-button i {
+    margin-left: 14px;
+}
+
+.project__prev-text,
+.project__next-text {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+/* ===================================================== */
+/* ==================== PROJECT END ==================== */
+/* ===================================================== */
