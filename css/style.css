@@ -774,6 +774,10 @@ header {
     margin-bottom: 20px;
 }
 
+.info__link:hover {
+    color: #007d2f;
+}
+
 .info__link b {
     color: #171717;
     font-weight: 700;
