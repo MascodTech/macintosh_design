@@ -10,6 +10,17 @@
 }
 
 @font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/nunitosans/NunitoSans-Bold.eot');
+    src: url('../fonts/nunitosans/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/nunitosans/NunitoSans-Bold.woff2') format('woff2'),
+        url('../fonts/nunitosans/NunitoSans-Bold.woff') format('woff'),
+        url('../fonts/nunitosans/NunitoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Work Sans';
     src: url('../fonts/worksans/WorkSans-Regular.eot');
     src: url('../fonts/worksans/WorkSans-Regular.eot?#iefix') format('embedded-opentype'),

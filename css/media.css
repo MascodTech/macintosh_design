@@ -10,6 +10,15 @@
     .process__video-image {
         height: 500px;
     }
+
+    .map__image {
+        height: 400px;
+    }
+
+    .map i {
+        top: 174px;
+        left: 483px;
+    }
 }
 
 @media (max-width: 991.5px) {
@@ -58,6 +67,15 @@
     .me {
         padding: 50px 0;
     }
+
+    .map__image {
+        height: 350px;
+    }
+
+    .map i {
+        top: 148px;
+        left: 358px;
+    }
 }
 
 @media (max-width: 767.5px) {
@@ -78,9 +96,18 @@
     .process__video-image {
         height: 300px;
     }
-    
+
     .me__image {
         height: auto;
+    }
+
+    .map__image {
+        height: 300px;
+    }
+
+    .map i {
+        top: 124px;
+        left: 260px;
     }
 }
 
@@ -103,5 +130,13 @@
 
     .process__text {
         font-size: 18px;
+    }
+
+    .feedback__form-row {
+        margin: 0;
+    }
+
+    .map i {
+        display: none;
     }
 }
