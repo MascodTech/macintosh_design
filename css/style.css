@@ -78,6 +78,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     text-align: right;
+    transition: 0.2s;
 }
 
 .navbar__item:not(:last-child) .navbar__link {
@@ -134,6 +135,26 @@ header {
     color: #000;
     background: #fff;
     border: 2px solid #007d2f;
+}
+
+.header-padding {
+    padding-top: 91px;
+}
+
+.navbar {
+    transition: 0.5s;
+}
+
+.at-fixed-nav {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.at-fixed-nav .navbar__link {
+    color: #fff !important;
+}
+
+.at-fixed-nav .navbar__link:hover {
+    color: #00e056 !important;
 }
 
 /* header end */
@@ -226,11 +247,12 @@ header {
 }
 
 .about-work__icon {
-    width: 40px;
     height: 40px;
     -o-object-fit: contain;
     object-fit: contain;
     margin-bottom: 10px;
+    font-size: 48px;
+    color: #fff;
 }
 
 .about-work__number {
@@ -290,6 +312,11 @@ header {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+}
+
+.works__icon {
+    font-size: 48px;
+    color: #fff;
 }
 
 .works__item:hover .works__overlay {
@@ -380,11 +407,12 @@ header {
 }
 
 .service__icon {
-    width: 40px;
     height: 45px;
     -o-object-fit: contain;
     object-fit: contain;
     margin-bottom: 30px;
+    font-size: 48px;
+    color: #808080;
 }
 
 .service__title {
